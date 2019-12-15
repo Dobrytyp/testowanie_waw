@@ -25,7 +25,7 @@
 # assert suma(0, 0) == 0, "failed"
 # assert suma(1.5, 1.5) == 9, "failed"
 
-# Asercje nie służą tylk odo testowania
+# Asercje nie służą tylko do testowania
 
 #
 # def div(a,b):

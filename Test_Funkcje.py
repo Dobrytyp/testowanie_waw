@@ -23,3 +23,17 @@ def test_kwadrat():
 test_kwadrat()
 
 
+def test_area():
+    assert Funkcje.circle_area(1) == Funkcje.math.pi
+    assert Funkcje.circle_area(1) == Funkcje.math.pi
+    assert Funkcje.circle_area(1) == Funkcje.circle_area(1)
+
+import pytest
+
+def test_value():
+    with pytest.raises(ValueError):
+        Funkcje.circle_area(-2)
+
+def test_type():
+    with pytest.raises(TypeError):
+        Funkcje.circle_area("ASD")
