@@ -21,3 +21,5 @@ def test_kwadrat():
     assert Funkcje.kwadrat(2) == 4
 
 test_kwadrat()
+
+

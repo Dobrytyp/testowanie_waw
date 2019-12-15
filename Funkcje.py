@@ -9,3 +9,4 @@ def product(x, y):
 def kwadrat(a):
     return a*a
 
+
